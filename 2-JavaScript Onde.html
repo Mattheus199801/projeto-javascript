@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Onde</title>
+    <script>
+        function my() {
+            document.getElementById("demo2").innerHTML = "Parágrafo alterado";
+        }
+    </script>
+</head>
+<body>
+    <h1>JavaScript Onde</h1>
+    <h2>A tag &lt;script&gt; </h2>
+    <p>Em HTML, o código JavaScript é inserido entre &lt;script&gt; as &lt;script&gt; tags e .</p>
+    <p id="demo1"></p>
+    <script>
+        document.getElementById("demo1").innerHTML ="Meu primeiro JavaScript";
+    </script>
+    <h2>JavaScript em &lt;head&gt;</h2>
+    <p>Neste exemplo, um JavaScript <mark style="color: #ff0000; background-color: #ffffff;"><strong>function</strong></mark> é colocado na <mark style="color: #ff0000; background-color: #ffffff;"><strong>&lt;head&gt;</strong></mark> seção de uma página HTML.</p>
+    <p id="demo2">Um parágrafo.</p>
+    <button type="button" onclick="my()">Experimente</button>
+    <h2>JavaScript em &lt;body&gt;</h2>
+    <p>Neste exemplo, um JavaScript <mark style="color: #ff0000; background-color: #ffffff;"><strong>function</strong></mark> é colocado na <mark style="color: #ff0000; background-color: #ffffff;"><strong>&lt;body&gt;</strong></mark> seção de uma página HTML.</p>
+    <p id="demo3">Sou eu.</p>
+    <button type="button" onclick="my1()">Experimente</button>
+    <script>
+        function my1() {
+            document.getElementById("demo3").innerHTML = "alterado";
+        }
+    </script>
+    <h2>JavaScript externo</h2>
+    <p id="demo4">Um parágrafo.</p>
+    <button type="button" onclick="my5()">Experimente</button>
+    <script src="mypasta.js"></script>
+</body>
+</html>
