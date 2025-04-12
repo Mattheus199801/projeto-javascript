@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Saída JavaScript</title>
+</head>
+<body>
+    <h1>Saída JavaScript</h1>
+    <p>Possibilidades de exibição do JavaScript</p>
+    <ul style="text-align: left;">
+        JavaScript pode "exibir" dados de diferentes maneiras:
+        <li>Escrevendo em um elemento HTML, usando <strong>innerHTML</strong> ou <strong>innerText</strong>.</li>
+        <li>Escrevendo na saída HTML usando <strong>document.write()</strong>.</li>
+        <li>Escrevendo em uma caixa de alerta, usando <strong>window.alert()</strong>.</li>
+        <li>Escrevendo no console do navegador, usando <strong>console.log()</strong>.</li>
+    </ul>
+
+    <h2>Usando innerHTML</h2>
+    <p>Para acessar um elemento HTML, você pode usar o <mark>document.getElementById(id)</mark> método. <br>
+        Use o <mark>id</mark> atributo para identificar o elemento HTML. <br>
+        Em seguida, use a <mark>innerHTML</mark> propriedade para alterar o conteúdo HTML do elemento HTML:</p>
+        <p>Minha página da WEB</p>
+        <p id="demo3"></p>
+        <script src="mypasta.js"></script>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quis blanditiis ipsum at nesciunt. Nihil enim molestias quos tempore dignissimos numquam id commodi perferendis dicta dolorum, quia delectus culpa ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nostrum, beatae dolore voluptatem provident nam ipsam sunt veritatis sequi voluptates odio nesciunt laboriosam corrupti, aliquam eligendi in distinctio hic vitae?</p>
+
+        <h2>Usando innerText</h2>
+        <p>Para acessar um elemento HTML, use o <mark>document.getElementById(id)</mark> método. <br>
+            Em seguida, use a innerText propriedade para alterar o texto interno do elemento HTML:
+        </p>
+        <p id="demo45"></p>
+        <script src="mypasta.js"></script>
+        <p class="pi">
+            Use innerHTML quando quiser alterar um elemento HTML. <br>
+            <br>
+            Use innerText quando quiser alterar apenas o texto simples.
+        </p>
+
+        <h2>Usando document.write()</h2>
+        <p>Para fins de teste, é conveniente usar <mark>document.write()</mark>:</p>
+        <p>Nunca chame document.write após o carregamento do documento. Isso sobrescreverá o documento inteiro.</p>
+        <script>
+            document.write(5 + 6); /* O método document.write() deve ser usado somente para testes.*/
+        </script>
+        <p>Usar document.write() depois que um documento HTML for carregado excluirá todo o HTML existente :</p>
+        <button type="button" onclick="document.write(4 + 5)">Experimente</button>
+
+        <h2>Usando window.alert()</h2>
+        <p>Você pode usar uma caixa de alerta para exibir dados:</p>
+        <script src="mypasta.js"></script>
+
+        <h2>Usando console.log()</h2>
+        <p>Para fins de depuração, você pode chamar o <mark>console.log()</mark> método no navegador para exibir dados.</p>
+        <script src="mypasta.js"></script>
+
+        <h2>JavaScript Imprimir</h2>
+        <p>
+            JavaScript não tem nenhum objeto de impressão ou métodos de impressão. <br>
+            <br>
+            Você não pode acessar dispositivos de saída do JavaScript. <br>
+            <br>
+            A única exceção é que você pode chamar o <mark>window.print()</mark> método no navegador para imprimir o conteúdo da janela atual.
+        </p>
+        <button onclick="window.print()">Imprimir esta página</button>
+</body>
+</html>

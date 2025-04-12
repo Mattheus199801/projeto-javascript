@@ -10,22 +10,26 @@
     <h1>Introdução ao JavaScript</h1>
     <h2>O que o JavaScript pode fazer?</h2>
     <p id="demo1">JavaScript pode alterar o conteúdo HTML.</p>
-    <button type="button" onclick="document.getElementById('demo1').innerHTML= 'Olá, Mundo!'">Clique aqui"</button>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML= 'Olá, Mundo!'">Clique aqui!</button>
     <p>JavaScript pode alterar valores de atributos HTML.</p>
     <p>Neste caso, o JavaScript altera o valor do atributo src (fonte) de uma imagem.</p>
-    <button onclick="document.getElementById('myimg').src='../img/acesa.gif'">Acenda a luz</button>
+    <button onclick="document.getElementById('myimg').src='../img/acesa.gif'" >Acenda a luz</button>
     <img id="myimg" src="../img/apagada.gif" style="width: 100px;">
     <button onclick="document.getElementById('myimg').src='../img/apagada.gif'">desligue a luz</button>
+
     <h2>JavaScript pode alterar estilos HTML (CSS)</h2>
     <p id="demo2">JavaScript pode alterar o estilo de um elemento HTML.</p>
     <button type="button" onclick="document.getElementById('demo2').style.fontSize='2em'">Clique aqui!</button>
+    
     <h2>JavaScript pode ocultar elementos HTML</h2>
     <p>É possível ocultar elementos HTML alterando o <mark style="color: #fc0404; background-color: #ffff;"><strong>display</strong></mark> estilo:</p>
     <p id="demo3">JavaScript pode ocultar elementos HTML.</p>
     <button type="button" onclick="document.getElementById('demo3').style.display='none'">Clique aqui!</button>
+    
     <h2>JavaScript pode mostrar elementos HTML</h2>
     <p>Mostrar elementos HTML ocultos também pode ser feito alterando o <mark style="color: #fc0404; background-color: #ffff;"><strong>display</strong></mark> estilo:</p>
     <p id="demo4" style="display: none;">Olá, Mundo!</p>
     <button type="button" onclick="document.getElementById('demo4').style.display='block'">Clique aqui!</button>
+
 </body>
 </html>

@@ -46,3 +46,17 @@ h6{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+button {
+    font-size: 1em;
+
+}
+mark {
+    color: #ff0000; background-color: #ffffff;
+    font-weight: bold;
+
+}
+.pi {
+    font-weight: bolder;
+    color: #ff0000;
+}
