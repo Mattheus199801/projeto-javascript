@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sintaxe JavaScript</title>
+</head>
+<body>
+    <h1>Sintaxe JavaScript</h1>
+    <p>A sintaxe JavaScript é o conjunto de regras de como os programas JavaScript são construídos:</p>
+    <h2>Valores JavaScript</h2>
+    <p>
+        A sintaxe JavaScript define dois tipos de valores:
+        <ul>
+            <li>Valores fixos</li>
+            <li>Valores variáveis</li>
+        </ul>
+        Valores fixos são chamados de <strong>Literais</strong> . <br>
+        <br>
+        Os valores das variáveis ​​são chamados de <strong>Variáveis</strong>
+    </p>
+
+    <h2>Literais de JavaScript</h2>
+    <p>As duas regras de sintaxe mais importantes para valores fixos são: <br>
+    <br>
+    1. <strong>Os números</strong> são escritos com ou sem decimais:</p>
+    <p id="dg"></p>
+    <script>
+        document.getElementById("dg").innerHTML = 10.50;
+    </script>
+    <p>2.<strong> Strings</strong> são textos escritos entre aspas duplas ou simples:</p>
+    <p id="da"></p>
+    <script>
+        document.getElementById("da").innerHTML = "Noite Sombria"
+    </script>
+
+    <h2>Variáveis ​​JavaScript</h2>
+    <p>
+        Em uma linguagem de programação, <strong>variáveis</strong>​ ​são usadas para <strong>armazenar</strong> valores de dados. <br>
+        <br>
+        JavaScript usa as palavras-chave <mark>var</mark>, <mark>let</mark> e <mark>const</mark> para <strong>declarar</strong> variáveis. <br>
+        <br>
+        Um <strong>sinal de igual</strong> é usado para <strong>atribuir valores</strong> às variáveis. <br>
+        <br>
+        Neste exemplo, x é definido como uma variável. Então, x recebe o valor 6:
+    </p>
+    <p id="df"></p>
+    <script>
+        let x;
+        x =6;
+        document.getElementById("df").innerHTML = x;
+    </script>
+
+    <h2>Operadores JavaScript</h2>
+    <p>JavaScript usa operadores aritméticos (<mark> + - * /</mark>) para <strong>calcular</strong> valores:</p>
+    <p id="sa"></p>
+    <script>
+        document.getElementById("sa").innerHTML = (5 + 6) * 10;
+    </script>
+    <p>JavaScript usa um <strong>operador de atribuição</strong> ( <mark>=</mark> ) para <strong>atribuir</strong> valores a variáveis:</p>
+    <p id="dr"></p>
+    <script>
+        let a , b;
+        a = 8 ;
+        b = 7 ;
+        document.getElementById("dr").innerHTML = a + b;
+    </script>
+</body>
+</html>
