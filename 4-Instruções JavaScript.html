@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instruções JavaScript</title>
+</head>
+<body>
+    <h1>Instruções JavaScript</h1>
+    <h2>Declarações</h2>
+    <p>Um <strong>programa JavaScript</strong> é uma lista de <strong>instruções</strong> a serem executadas por um computador.</p>
+    <p id="sou"></p>
+    <button onclick="my6()">Calcular Z</button>
+    <script src="./mypasta.js"></script> 
+    
+    <h2>Programas JavaScript</h2>
+    <p> 
+        Um <strong>programa de computador</strong> é uma lista de "instruções" a serem "executadas" por um computador. <br>
+        <br>
+        Em uma linguagem de programação, essas instruções de programação são chamadas de <strong>instruções</strong> . <br>
+        <br>
+        Um <strong>programa JavaScript</strong> é uma lista de <strong>instruções</strong> de programação . 
+        <br>
+        <br>
+        <mark>Em HTML, os programas JavaScript são executados pelo navegador da web.</mark>
+    </p>
+
+    <h2>Instruções JavaScript</h2>
+    <p>
+        As instruções JavaScript são compostas de: <br>
+        <br>
+        Valores, operadores, expressões, palavras-chave e comentários. <br>
+        <br>
+        Esta instrução diz ao navegador para escrever "Hello Dolly." dentro de um elemento HTML com id="demo":
+    </p>
+    <p id="df"></p>
+
+    <script>
+        document.getElementById("df").innerText = "Olá, Silva.";
+    </script>
+    <p>
+        A maioria dos programas JavaScript contém muitas instruções JavaScript. <br>
+        <br>
+        As instruções são executadas, uma por uma, na mesma ordem em que são escritas. <br>
+        <br>
+        <mark>Programas JavaScript (e instruções JavaScript) são frequentemente chamados de código JavaScript.</mark>
+    </p>
+    <h2>Ponto e vírgula;</h2>
+    <p>
+        Ponto e vírgula separam instruções JavaScript. <br> 
+        <br> 
+        Adicione um ponto e vírgula no final de cada instrução executável:
+    </p>
+    <p id="del"></p>
+    <script>
+        let a, b , c;
+        a = 5;
+        b = 9;
+        c = a + b;
+        document.getElementById("del").innerHTML = c;
+    </script>
+    <p> Quando separadas por ponto e vírgula, várias instruções em uma linha são permitidas:</p>
+    <p id="dj"></p>
+    <script>
+        let y , j , f;
+        y = 8; j = 5; f = y + j;
+        document.getElementById("dj").innerHTML = f;
+    </script>
+
+    <h2>Espaço em branco em JavaScript</h2>
+    <p>
+        JavaScript ignora múltiplos espaços. Você pode adicionar espaços em branco ao seu script para torná-lo mais legível. <br>
+        <br>
+        As seguintes linhas são equivalentes:
+    </p>
+    <p id="dg"></p>
+    <script>
+        let ps1 = " Sombra ";
+        let ps2 = " Noite ";
+        document.getElementById("dg").innerHTML = "Seu nome é " + ps1 + ps2;  /*Uma boa prática é colocar espaços em volta dos operadores ( = + - * / ):*/
+    </script>
+
+    <h2>Comprimento de linha e quebras de linha em JavaScript</h2>
+    <p> 
+        Para melhor legibilidade, os programadores geralmente preferem evitar linhas de código com mais de 80 caracteres. <br> 
+        <br>
+        Se uma instrução JavaScript não couber em uma linha, o melhor lugar para quebrá-la é depois de um operador:
+    </p>
+    <p id="ds"></p>
+    <script>
+        document.getElementById("ds").innerHTML = "Sou seu aqui!";
+    </script>
+
+    <h2>Blocos de código JavaScript</h2>
+    <p> 
+        As instruções JavaScript podem ser agrupadas em blocos de código, dentro de chaves <mark>{...}</mark>. <br>
+        <br>
+        O objetivo dos blocos de código é definir instruções a serem executadas em conjunto. <br>
+        <br>
+        Um lugar onde você encontrará instruções agrupadas em blocos é nas funções JavaScript:
+    </p>
+    <p>Blocos de código JavaScript são escritos entre { e }</p>
+    <p id="dh"></p>
+    <p id="dk"></p>
+    <button type="button" onclick="my85()">Clique aqui viu!</button>
+    <script src="mypasta.js"></script>
+
+    <h2>Palavras-chave JavaScript</h2>
+    <p> 
+        As instruções JavaScript geralmente começam com uma <strong>palavra-chave</strong> para identificar a ação JavaScript a ser executada. <br>
+        <br>
+        Aqui está uma lista de algumas das palavras-chave que você aprenderá neste tutorial:
+    </p>
+    <table border="1em">
+        <tr>
+            <th>Palavra-chave</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>var</td>
+            <td>Declara uma variável</td>
+        </tr>
+        <tr>
+            <td>let</td>
+            <td>Declara uma variável de bloco</td>
+        </tr>
+        <tr>
+            <td>const</td>
+            <td>Declara uma constante de bloco</td>
+        </tr>
+        <tr>
+            <td>if</td>
+            <td>Marca um bloco de instruções a serem executadas sob uma condição</td>
+        </tr>
+        <tr>
+            <td>switch</td>
+            <td>Marca um bloco de instruções a serem executadas em casos diferentes</td>
+        </tr>
+        <tr>
+            <td>for</td>
+            <td>Marca um bloco de instruções a serem executadas em um loop</td>
+        </tr>
+        <tr>
+            <td>function</td>
+            <td>Declara uma função</td>
+        </tr>
+        <tr>
+            <td>return</td>
+            <td>Sai de uma função</td>
+        </tr>
+        <tr>
+            <td>try</td>
+            <td>Implementa o tratamento de erros em um bloco de instruções</td>
+        </tr>
+    </table>
+</body>
+</html>

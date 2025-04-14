@@ -9,6 +9,8 @@ body {
     font-size: 2em;
     text-align: justify;
     text-align: center;
+    align-items: center;  
+
 }
 
 h1 {
@@ -59,4 +61,33 @@ mark {
 .pi {
     font-weight: bolder;
     color: #ff0000;
+}
+
+table {
+    margin: 0 auto; /* <-- centraliza na horizontal */
+    border-collapse: collapse;
+    width: 300%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border: 5px solid #66ff66;
+    box-shadow: 0px 0px 10px #0000001a;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
 }
