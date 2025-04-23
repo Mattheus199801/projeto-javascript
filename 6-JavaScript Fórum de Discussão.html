@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Fórum de Discussão</title>
+</head>
+<body>
+    <h1>JavaScript Fórum de Discussão</h1>
+    <p>
+        Os comentários de uma única linha começam com .<mark>//</mark> <br>
+        <br>
+        Qualquer texto entre e o final da linha será ignorado pelo JavaScript (não será executado).<mark>//</mark> <br>
+        <br>
+        Este exemplo usa um comentário de linha única antes de cada linha de código:
+    </p>
+    <h2>Comentários de linha única</h2>
+    <script>
+        // aqui está as informações 
+        document.getElementById("myH").innerHTML = "My First Page";
+    </script>
+
+    <h2>Comentários de várias linhas</h2>
+    <p> 
+        Os comentários de várias linhas começam com e terminam com .<mark>/**/</mark> <br>
+        <br>
+        Qualquer texto entre e será ignorado pelo JavaScript.<mark>/**/</mark> <br>
+        <br>
+        Este exemplo usa um comentário de várias linhas (um bloco de comentários) para explicar o código:
+    </p>
+    <script>
+        /*
+        The code below will change
+        the heading with id = "myH"
+        and the paragraph with id = "myP"
+        in my web page:
+        */
+        document.getElementById("myH").innerHTML = "My First Page";
+        document.getElementById("myP").innerHTML = "My first paragraph.";
+    </script>
+</body>
+</html>
